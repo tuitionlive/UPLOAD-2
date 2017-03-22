@@ -1,0 +1,690 @@
+[
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_shop_child.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_shop_child.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_navigation_drawer_1.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_navigation_drawer_1.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_media_child.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_media_child.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_drag_and_drop_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_drag_and_drop_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_swipe_to_dissmiss_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_swipe_to_dissmiss_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_drag_and_drop_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_drag_and_drop_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_buttons.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_buttons.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_image_gallery.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_image_gallery.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/dialog_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_tab_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_tab_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_swipe_to_dissmiss_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_swipe_to_dissmiss_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_header.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_header.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/toolbar_tab_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/toolbar_tab_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_dialogs.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_dialogs.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_tab_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_tab_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_dialog.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_dialog.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/dialog_universal_info.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_universal_info.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_swipe_to_dissmiss_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_swipe_to_dissmiss_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_categories_two_columns.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_categories_two_columns.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_menu_dragger.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_menu_dragger.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_navigation_drawer_2.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_navigation_drawer_2.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_tab_universal.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_tab_universal.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/group_item.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/group_item.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_search_bar_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_search_bar_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_parallax_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_parallax_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_left_menus.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_left_menus.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_sticky_header_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_sticky_header_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_sticky_header_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_sticky_header_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_text_views.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_text_views.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_wizard_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_wizard_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_wizard_universal.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_wizard_universal.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_list_views.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_list_views.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_login_page_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_login_page_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_wizard_universal.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_wizard_universal.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_image_gallery.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_image_gallery.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_row.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_row.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_login_page_and_loaders.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_login_page_and_loaders.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_navigation_drawer_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_navigation_drawer_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_stickylistheaders.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_stickylistheaders.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/dialog_universal_warning.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_universal_warning.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_header_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_header_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_travel_child.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_travel_child.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/dialog_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_header_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_header_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_parallax_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_parallax_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_swipe_to_dissmiss_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_swipe_to_dissmiss_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_drag_and_drop_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_drag_and_drop_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/view_floating_labeled_edit_text.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/view_floating_labeled_edit_text.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_navigation_drawer_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_navigation_drawer_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_swip_to_dissmiss_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_swip_to_dissmiss_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_tab_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_tab_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_undo_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_undo_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_wizard_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_wizard_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_categories_one_column.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_categories_one_column.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_subcategory.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_subcategory.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/toolbar_tab_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/toolbar_tab_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_header_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_header_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_wizard_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_wizard_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_shape_image_views.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_shape_image_views.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_expandable_list_view_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_expandable_list_view_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_social_child.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_social_child.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_drag_and_drop_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_drag_and_drop_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_search_bars_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_search_bars_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_navigation_drawer_2.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_navigation_drawer_2.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_menu_dragger.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_menu_dragger.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_search_bar_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_search_bar_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/drawer_menu_dragger.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/drawer_menu_dragger.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_navigation_drawer_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_navigation_drawer_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_drag_and_drop_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_drag_and_drop_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_fake.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_fake.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_navigation_drawer_1.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_navigation_drawer_1.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/movie_list_row.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/movie_list_row.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_tab_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_tab_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_google_cards_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_google_cards_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/dialog_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_search.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_search.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_tab_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_tab_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_navigation_drawer_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_navigation_drawer_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_google_cards_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_google_cards_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_undo_view_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_undo_view_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_wizard_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_wizard_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_parallax_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_parallax_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_navigation_drawer_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_navigation_drawer_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_expandable_list_view.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_expandable_list_view.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_login_page_light.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_login_page_light.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_wizard_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_wizard_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_register_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_register_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_sticky_header_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_sticky_header_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_parallax_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_parallax_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_login_page_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_login_page_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fullscreen_video.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fullscreen_video.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_expandable_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_expandable_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_wizard_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_wizard_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_check_and_radio_boxes.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_check_and_radio_boxes.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_list_views.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_list_views.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/toolbar_tab_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/toolbar_tab_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_google_cards_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_google_cards_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_swip_to_dissmiss_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_swip_to_dissmiss_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_search_bars_light.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_search_bars_light.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_paralax.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_paralax.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/toolbar.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_undo_view.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_undo_view.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_search_bars.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_search_bars.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_navigation_drawer_3.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_navigation_drawer_3.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_login_page_dark.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_login_page_dark.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_expandable_list_view_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_expandable_list_view_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_tab_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_tab_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_undo_view_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_undo_view_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_search_bars_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_search_bars_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_expandable_list_view_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_expandable_list_view_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_undo_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_undo_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_navigation_drawer_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_navigation_drawer_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_wizard_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_wizard_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax_ken_burns.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax_ken_burns.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_view_item_navigation_drawer_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_view_item_navigation_drawer_shop.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_tab_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_tab_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_google_cards_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_google_cards_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/dialog_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_tabs.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_tabs.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_tab_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_tab_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_splash_screens.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_splash_screens.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_parallax_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_parallax_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_login_page_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_login_page_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_sticky_header_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_sticky_header_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/dialog_social_premium.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_social_premium.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_tab_universal.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_tab_universal.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_default.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_default.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/psts_tab.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/psts_tab.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_google_cards.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_google_cards.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_wizard_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_wizard_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_drag_and_drop_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_drag_and_drop_media.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_search_bars_dark.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_search_bars_dark.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_progress_bars.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_progress_bars.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_parallax_social.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_parallax_social.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_header_travel.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_header_travel.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_expandable_list_view_shop.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_expandable_list_view_shop.xml"
+    }
+]

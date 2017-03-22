@@ -1,0 +1,7 @@
+Please take a moment to read this file and understand how we organized this template and how to use it.
+
+You are in 'android' folder. There, you'll find four folders: android-support-v7-appcompat, Open Source Projects, StickyListHeaders and UIAppTemplate. Our UI template application demo source code is located in UIAppTemplate folder. It is importable to Eclipse/Android Studio. This project uses other two projects: android-support-v7-appcompat and StickyListHeaders. If you import UIAppTemplate, you'll have to import these two projects also.
+
+So, we come to 4th folder that is called Open Source Projects. This folder contains many other projects. All of these projects are used in UIAppTemplate app, but in such way that we copy/pasted source code from these projects to our project and then used it. So, none of these projects are linked to UIAppTemplate project as library projects.
+
+Why we did like this way? We wanted to create an app template that combines all these projects into one project which would show you beautiful Material Design in action. You probably won't need all of these projects in your app, so you wouldn't like to have every single project imported to your project, but not used. So, if you would like to use Ken Burns effect on splash screen image (or anywhere else), just import project from 'Open Source Projects\KenBurnsView' and then link it to your own project. Then, you can use KenBurnsView class.

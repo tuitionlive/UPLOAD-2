@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/PullZoomView/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 681,
+                    "endColumn": 44,
+                    "endOffset": 721
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/PullZoomView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 681,
+                        "endColumn": 44,
+                        "endOffset": 721
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-land-nodpi-v4/splash_screen_background.jpg",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-land-nodpi/splash_screen_background.jpg"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-land-nodpi-v4/login_background_light.jpg",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-land-nodpi/login_background_light.jpg"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-land-nodpi-v4/login_background_dark.jpg",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-land-nodpi/login_background_dark.jpg"
+    }
+]

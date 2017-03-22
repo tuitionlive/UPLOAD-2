@@ -1,0 +1,222 @@
+[
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/radio_off_dark.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/radio_off_dark.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/ok_white.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/ok_white.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/check_off_dark.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/check_off_dark.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/check_on_light.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/check_on_light.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/done_green.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/done_green.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/ic_drawer.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/ic_drawer.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/check_on_dark.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/check_on_dark.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/cancel_white.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/cancel_white.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/check_off_light.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/check_off_light.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/star_white.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/star_white.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/radio_on_light.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/radio_on_light.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/edit_text_background_main.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/edit_text_background_main.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/star_red.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/star_red.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/edit_text_background_accent.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/edit_text_background_accent.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/radio_on_dark.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/radio_on_dark.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_full_open_on_phone.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/cancel_red.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/cancel_red.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/radio_off_light.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/radio_off_light.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/error_red.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/error_red.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_ic_googleplayservices.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/ok_green.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/ok_green.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-hdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-hdpi/drawer_shadow.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-hdpi/drawer_shadow.9.png"
+    }
+]

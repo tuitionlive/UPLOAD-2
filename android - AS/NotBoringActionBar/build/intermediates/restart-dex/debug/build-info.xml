@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="6279634294557"
+    token="-1896661878227608040"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="159" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="112" />
+    <task
+        name="verifier"
+        duration="17" />
+
+    <artifact
+        location="/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/outputs/apk/NotBoringActionBar-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="6279634294557"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/outputs/apk/NotBoringActionBar-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

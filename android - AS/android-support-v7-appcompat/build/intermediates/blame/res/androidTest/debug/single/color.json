@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_search_url_text.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/color/abc_secondary_text_material_dark.xml"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/anim/translate_top_to_center.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/anim/translate_top_to_center.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/anim/abc_fade_in.xml"
+    }
+]

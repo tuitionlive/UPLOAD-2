@@ -1,0 +1,144 @@
+[
+    {
+        "outputFile": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 113,
+                        "endColumn": 55,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 52,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 63,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 63,
+                        "endOffset": 281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endColumn": 52,
+                    "endOffset": 334
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endColumn": 52,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 339,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 339,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 785
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/AnimatedExpandableListView/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 630,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 785
+                    }
+                }
+            }
+        ]
+    }
+]

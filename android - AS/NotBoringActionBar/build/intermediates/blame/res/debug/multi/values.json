@@ -1,0 +1,203 @@
+[
+    {
+        "outputFile": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 94,
+                        "endColumn": 68,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endColumn": 38,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 38,
+                        "endOffset": 89
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 45,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 45,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 48,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 48,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 55,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 55,
+                        "endOffset": 107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 1744,
+                    "endOffset": 2054
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 1744,
+                        "endOffset": 1922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 2059,
+                    "endColumn": 69,
+                    "endOffset": 2124
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 112,
+                        "endColumn": 69,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 2129,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 2450
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 379,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2455,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 2658
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 706,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2663,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 3019
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/res/values/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 373
+                    }
+                }
+            }
+        ]
+    }
+]

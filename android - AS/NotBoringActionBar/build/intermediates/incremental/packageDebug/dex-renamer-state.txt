@@ -1,0 +1,7 @@
+#Sat Feb 18 18:20:03 IST 2017
+base.0=/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_779cb81457ff643ca4c601b6570b50084a25e749
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2a58f51649f9da99d0ee19027342bbd8e00cde9e/classes.dex
+base.1=/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2a58f51649f9da99d0ee19027342bbd8e00cde9e
+file.0=/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_779cb81457ff643ca4c601b6570b50084a25e749/classes.dex

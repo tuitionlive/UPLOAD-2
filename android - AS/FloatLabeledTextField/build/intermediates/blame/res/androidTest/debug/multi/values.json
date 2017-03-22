@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/FloatLabeledTextField/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4901,
+                    "endColumn": 64,
+                    "endOffset": 4961
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/FloatLabeledTextField/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 4901,
+                        "endColumn": 64,
+                        "endOffset": 4961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4966,
+                    "endColumn": 50,
+                    "endOffset": 5012
+                },
+                "from": {
+                    "file": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/FloatLabeledTextField/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 4966,
+                        "endColumn": 50,
+                        "endOffset": 5012
+                    }
+                }
+            }
+        ]
+    }
+]
