@@ -1,9 +1,11 @@
 package com.csform.android.uiapptemplate;
 
+import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.RectF;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -50,7 +52,8 @@ public class ParallaxKenBurnsActivity extends Activity {
 	private SpannableString mSpannableString;
 	private TypedValue mTypedValue = new TypedValue();
 
-	@Override
+	@TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1)
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		mSmoothInterpolator = new AccelerateDecelerateInterpolator();
@@ -61,11 +64,12 @@ public class ParallaxKenBurnsActivity extends Activity {
 		mListView = (ListView) findViewById(R.id.list_view);
 		mHeader = findViewById(R.id.header);
 		mHeaderPicture = (KenBurnsView) findViewById(R.id.header_picture);
-		
+		mHeaderPicture.setBackgroundResource(R.color.main_color_grey_600);
 		mHeaderPicture.setImageResource(R.drawable.background_small);
 		
 		mHeaderPicture.setScaleType(ScaleType.CENTER_CROP);
 		mHeaderLogo = (ImageView) findViewById(R.id.header_logo);
+
 		mActionBarTitleColor = Color.WHITE;
 		mSpannableString = new SpannableString(
 				getString(R.string.app_name));
@@ -109,6 +113,7 @@ public class ParallaxKenBurnsActivity extends Activity {
 						/ mMinHeaderTranslation, 0.0f, 1.0f);
 				interpolate(mHeaderLogo, getActionBarIconView(),
 						mSmoothInterpolator.getInterpolation(ratio));
+
 				setTitleAlpha(clamp(5.0F * ratio - 4.0F, 0.0F, 1.0F));
 			}
 		});
@@ -190,4 +195,8 @@ public class ParallaxKenBurnsActivity extends Activity {
 				mTypedValue.data, getResources().getDisplayMetrics());
 		return mActionBarHeight;
 	}
+    public void enroll()
+    {
+
+    }
 }

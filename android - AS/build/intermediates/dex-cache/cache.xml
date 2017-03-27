@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="736e2aa5949888f4fd8a078bfa2a900a5323d311">
+        sha1="8ed437bca35297eae6c0a3d0477ccbe700757a4d">
         <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e04aa710e319700423dda60e750ffc3a09cab805/classes.dex" />
     </item>
     <item
@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="416d9c8816e4669d6b42bce751f890e3ac3f168c">
+        sha1="f7c7212818a39a005993d2cba443e499e9c3675e">
         <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_112380cfeaa73cab30af9d22acd613d84826e6a0/classes.dex" />
     </item>
     <item

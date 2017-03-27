@@ -29,11 +29,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>F
         <activity
             android:name=".ParallaxKenBurnsActivity"
             android:theme="@style/AppTheme.Overlay" />
-        <activity android:name=".ParallaxActivity" />
+        <activity android:name=".ParallaxActivity"
+
+        />
+
         <activity android:name=".ParallaxTravelActivity" />
         <activity android:name=".ParallaxSocialActivity" />
         <activity android:name=".ParallaxMediaActivity" />

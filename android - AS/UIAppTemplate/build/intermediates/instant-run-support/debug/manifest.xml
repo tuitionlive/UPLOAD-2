@@ -30,6 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+F
         <activity
             android:name="com.csform.android.uiapptemplate.ParallaxKenBurnsActivity"
             android:theme="@style/AppTheme.Overlay" />

@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
-import com.csform.android.uiapptemplate.adapter.DefaultAdapter;
-import com.csform.android.uiapptemplate.util.DummyContent;
 import com.csform.android.uiapptemplate.view.pzv.PullToZoomListViewEx;
 
 public class ParallaxActivity extends ActionBarActivity {
@@ -21,7 +19,7 @@ public class ParallaxActivity extends ActionBarActivity {
 		//listView.setZoomEnabled(true);
 		//listView.setParallax(true);
 		//listView.showHeadView();
-		listView.setAdapter(new DefaultAdapter(this, DummyContent.getDummyModelList(), false));
+		//listView.setAdapter(new DefaultAdapter(this, DummyContent.getDummyModelList(), false));
 	}
 	
 	@Override

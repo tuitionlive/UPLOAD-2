@@ -40,12 +40,12 @@
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/fragment_buttons.xml"
     },
     {
-        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax_media.xml",
-        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax_media.xml"
-    },
-    {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/header_image_gallery.xml",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_image_gallery.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_parallax_media.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_parallax_media.xml"
     },
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
