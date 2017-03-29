@@ -16,13 +16,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/favicon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.csform.android.uiapptemplate.TabTravelActivity"
+            android:name="com.csform.android.uiapptemplate.SplashScreensActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,7 +53,6 @@ F
         <activity
             android:name="com.csform.android.uiapptemplate.RegisterShopPageActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.csform.android.uiapptemplate.SplashScreensActivity" />
         <activity android:name="com.csform.android.uiapptemplate.ListViewsActivity" />
         <activity
             android:name="com.csform.android.uiapptemplate.LeftMenusActivity"
@@ -137,6 +136,11 @@ F
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name="com.csform.android.uiapptemplate.TabShopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.TabTravelActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTabsTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />

@@ -66,8 +66,8 @@
         app:pstsDividerPadding="16dp"
         app:pstsDividerWidth="0dp"
         app:pstsIndicatorHeight="2dp"
-        app:pstsIndicatorColor="@color/material_yellow_500"
-        app:pstsTabTextColor="@color/material_yellow_500" />
+        app:pstsIndicatorColor="@color/accent"
+        app:pstsTabTextColor="@color/icons" />
 
     <View
         android:layout_width="match_parent"

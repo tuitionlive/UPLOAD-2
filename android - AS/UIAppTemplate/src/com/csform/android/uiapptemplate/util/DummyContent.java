@@ -1,12 +1,12 @@
 package com.csform.android.uiapptemplate.util;
 
-import java.util.ArrayList;
-import java.util.Random;
-
 import com.csform.android.uiapptemplate.R;
 import com.csform.android.uiapptemplate.model.DummyModel;
 import com.csform.android.uiapptemplate.model.ImageGalleryCategoryModel;
 import com.csform.android.uiapptemplate.model.ImageGallerySubcategoryModel;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 public class DummyContent {
 	
@@ -873,7 +873,7 @@ public class DummyContent {
 	public static ArrayList<DummyModel> getDummyModelDragAndDropShopList() {
 		ArrayList<DummyModel> list = new ArrayList<>();
 
-		list.add(new DummyModel(0, "http://pengaja.com/uiapptemplate/newphotos/shop/0.jpg", "Black Shirt", R.string.fontello_heart_empty));
+		list.add(new DummyModel(0, "http://pengaja.com/uiapptemplate/newphotos/shop/0.jpg", "Indian Polity Intro", R.string.fontello_heart_empty));
 		list.add(new DummyModel(1, "http://pengaja.com/uiapptemplate/newphotos/shop/1.jpg", "Black Sweater", R.string.fontello_heart_empty));
 		list.add(new DummyModel(2, "http://pengaja.com/uiapptemplate/newphotos/shop/2.jpg", "Shirt", R.string.fontello_heart_empty));
 		list.add(new DummyModel(3, "http://pengaja.com/uiapptemplate/newphotos/shop/3.jpg", "White Shirt", R.string.fontello_heart_empty));

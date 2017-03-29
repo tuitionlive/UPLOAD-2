@@ -5,29 +5,29 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1073281442528491"
+    timestamp="36866227897975"
     token="-1906715973906770026"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="5353" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="2875" />
     <task
         name="verifier"
-        duration="0" />
+        duration="285" />
 
     <artifact
         location="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/outputs/apk/UIAppTemplate-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="1073281442528491"
+        timestamp="36866227897975"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/outputs/apk/UIAppTemplate-debug.apk"

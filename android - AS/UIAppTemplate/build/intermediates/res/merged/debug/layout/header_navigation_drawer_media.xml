@@ -31,14 +31,15 @@
             android:layout_width="104dp"
             android:layout_height="104dp"
             android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp" />
+            android:layout_marginTop="12dp"
+            />
 
         <com.csform.android.uiapptemplate.font.RobotoTextView
             android:id="@+id/header_navigation_drawer_media_username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="UserName"
-            android:textColor="@android:color/white"
+            android:textColor="@color/primary_text"
             android:textSize="20sp"
             app:typeface="robotoLight" />
 
@@ -47,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="username@gmail.com"
-            android:textColor="@android:color/white"
+            android:textColor="@color/secondary_text"
             android:textSize="12sp"
             app:typeface="robotoRegular" />
     </LinearLayout>

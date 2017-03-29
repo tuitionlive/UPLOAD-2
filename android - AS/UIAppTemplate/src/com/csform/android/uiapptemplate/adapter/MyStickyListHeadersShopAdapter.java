@@ -1,8 +1,5 @@
 package com.csform.android.uiapptemplate.adapter;
 
-import java.util.ArrayList;
-
-import se.emilsjolander.stickylistheaders.StickyListHeadersAdapter;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +13,10 @@ import com.csform.android.uiapptemplate.R;
 import com.csform.android.uiapptemplate.model.DummyModel;
 import com.csform.android.uiapptemplate.util.ImageUtil;
 import com.nhaarman.listviewanimations.ArrayAdapter;
+
+import java.util.ArrayList;
+
+import se.emilsjolander.stickylistheaders.StickyListHeadersAdapter;
 
 public class MyStickyListHeadersShopAdapter extends ArrayAdapter<String>
 		implements StickyListHeadersAdapter, OnClickListener {
@@ -54,14 +55,14 @@ public class MyStickyListHeadersShopAdapter extends ArrayAdapter<String>
 			holder = new ViewHolder();
 			holder.image = (ImageView) convertView
 					.findViewById(R.id.list_item_sticky_header_shop_image);
-			holder.image1 = (ImageView) convertView
-					.findViewById(R.id.list_item_sticky_header_shop_image1);
-			holder.image2 = (ImageView) convertView
-					.findViewById(R.id.list_item_sticky_header_shop_image2);
-			holder.image3 = (ImageView) convertView
-					.findViewById(R.id.list_item_sticky_header_shop_image3);
-			holder.image4 = (ImageView) convertView
-					.findViewById(R.id.list_item_sticky_header_shop_image4);
+//			holder.image1 = (ImageView) convertView
+//					.findViewById(R.id.list_item_sticky_header_shop_image1);
+//			holder.image2 = (ImageView) convertView
+//					.findViewById(R.id.list_item_sticky_header_shop_image2);
+//			holder.image3 = (ImageView) convertView
+//					.findViewById(R.id.list_item_sticky_header_shop_image3);
+//			holder.image4 = (ImageView) convertView
+//					.findViewById(R.id.list_item_sticky_header_shop_image4);
 			holder.productName = (TextView) convertView
 					.findViewById(R.id.list_item_sticky_header_shop_product_name);
 			holder.shipping = (TextView) convertView

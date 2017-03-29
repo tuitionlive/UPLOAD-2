@@ -39,47 +39,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp" >
 
-                <ImageView
-                    android:id="@+id/list_item_sticky_header_shop_image1"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginRight="3dp"
-                    android:layout_weight="1"
-                    android:background="@color/material_grey_300"
-                    android:contentDescription="@string/cd_main_image"
-                    android:scaleType="centerCrop" />
-
-                <ImageView
-                    android:id="@+id/list_item_sticky_header_shop_image2"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginRight="3dp"
-                    android:layout_weight="1"
-                    android:background="@color/material_grey_300"
-                    android:contentDescription="@string/cd_main_image"
-                    android:scaleType="centerCrop" />
-
-                <ImageView
-                    android:id="@+id/list_item_sticky_header_shop_image3"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginRight="3dp"
-                    android:layout_weight="1"
-                    android:background="@color/material_grey_300"
-                    android:contentDescription="@string/cd_main_image"
-                    android:scaleType="centerCrop" />
-
-                <ImageView
-                    android:id="@+id/list_item_sticky_header_shop_image4"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="3dp"
-                    android:layout_weight="1"
-                    android:background="@color/material_grey_300"
-                    android:contentDescription="@string/cd_main_image"
-                    android:scaleType="centerCrop" />
             </LinearLayout>
 
             <LinearLayout
@@ -155,20 +114,20 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:orientation="vertical"
-                    android:gravity="right|bottom" >
+                    android:gravity="right|center"
+                    android:weightSum="1">
 
                     <com.csform.android.uiapptemplate.font.RobotoTextView
                         android:id="@+id/list_item_sticky_header_shop_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
+
                         android:layout_alignParentRight="true"
-                        android:layout_weight="0"
                         android:background="@drawable/selector_expandable_shop"
                         android:gravity="center"
                         android:minHeight="36dp"
                         android:minWidth="64dp"
-                        android:text="BUY"
+                        android:text="View"
                         android:textColor="@android:color/white"
                         android:textSize="14sp"
                         app:typeface="robotoMedium" />

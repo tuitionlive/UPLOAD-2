@@ -16,26 +16,8 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="8ed437bca35297eae6c0a3d0477ccbe700757a4d">
+        sha1="8176b37bea696560593b48ba0aabfa47ed4e3e95">
         <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e04aa710e319700423dda60e750ffc3a09cab805/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_cadf77c0d8a980489a5df6f89f24dcef25534683/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="f7c7212818a39a005993d2cba443e499e9c3675e">
-        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_112380cfeaa73cab30af9d22acd613d84826e6a0/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -45,15 +27,6 @@
         revision="22.0.1"
         sha1="3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28">
         <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_15971069cfa571242bd95b7fd575a5c906aa53e8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_0eda1fac3e896f13e0ff8d52f4ab227994707460/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,15 +75,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Krishna/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_9e9774844299b0ab1ed18b095218121889246888/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/libs/nineoldandroids-2.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -120,39 +84,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_4ea1a36f7270b0c8b4f174a460b5228e06b9f67e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/libs/listviewanimations_lib-core-slh_3.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="a4fe703aabd23e8c287c90396514418119109dd1">
         <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/2/listviewanimations_lib-core-slh_3.1.0_54fe4c97b99789c3322ed9f3128515528eb66cc9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/jars/libs/android-support-v4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="165f0fcf6b26240f92acb29bb2c5bd6fa03e36b6">
-        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/8/android-support-v4_9ac04065a0ef5528d1bd2c86ac63012b23ff3592/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/libs/listviewanimations_lib-manipulation_3.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
-        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/2/listviewanimations_lib-manipulation_3.1.0_2591786578d900a2d1a876bf4994ea132f8735cf/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -171,6 +108,69 @@
         revision="22.0.1"
         sha1="1716872818b073f51e2a7bd5092139a08e354398">
         <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_779cb81457ff643ca4c601b6570b50084a25e749/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_cadf77c0d8a980489a5df6f89f24dcef25534683/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="42c0e561cd06225c1615f12e60f5dad0814e823b">
+        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_112380cfeaa73cab30af9d22acd613d84826e6a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_0eda1fac3e896f13e0ff8d52f4ab227994707460/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Krishna/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_9e9774844299b0ab1ed18b095218121889246888/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_4ea1a36f7270b0c8b4f174a460b5228e06b9f67e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/jars/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="165f0fcf6b26240f92acb29bb2c5bd6fa03e36b6">
+        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/8/android-support-v4_9ac04065a0ef5528d1bd2c86ac63012b23ff3592/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/libs/listviewanimations_lib-manipulation_3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
+        <dex dex="/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/transforms/dex/debug/folders/1000/2/listviewanimations_lib-manipulation_3.1.0_2591786578d900a2d1a876bf4994ea132f8735cf/classes.dex" />
     </item>
 
 </items>

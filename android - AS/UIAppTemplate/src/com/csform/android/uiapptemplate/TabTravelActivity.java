@@ -59,7 +59,7 @@ public class TabTravelActivity extends ActionBarActivity {
 		image = (ImageView) findViewById(R.id.activity_tab_travel_image);
 
 
-		ImageUtil.displayImage(image, "http://pengaja.com/uiapptemplate/newphotos/listviews/swipetodissmiss/travel/1.jpg", null);
+		ImageUtil.displayImage(image, "https://www.tuition.in/img/hero-3.jpg", null);
 		
 		adapter = new MyPagerAdapter(getSupportFragmentManager());
 		pager.setAdapter(adapter);
@@ -100,11 +100,10 @@ public class TabTravelActivity extends ActionBarActivity {
 
 		private final ArrayList<String> tabNames = new ArrayList<String>() {
 			{
-				add("Media");
-				add("Shop");
-				add("Social");
-				add("Travel");
-				add("Universal");
+				add("My Courses");
+				add("Search Courses");
+				add("Profile");
+
 			}
 		};
 

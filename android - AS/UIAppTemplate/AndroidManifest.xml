@@ -17,13 +17,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/favicon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TabTravelActivity"
+            android:name=".SplashScreensActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -56,7 +56,7 @@
         <activity
             android:name=".RegisterShopPageActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".SplashScreensActivity" />
+
         <activity android:name=".ListViewsActivity" />
         <activity
             android:name=".LeftMenusActivity"
@@ -143,6 +143,11 @@
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name=".TabShopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".TabTravelActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTabsTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />
