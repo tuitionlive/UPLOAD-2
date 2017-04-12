@@ -208,12 +208,12 @@
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable/checkbox_selector_light.xml"
     },
     {
-        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable/splash.png",
-        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable/splash.png"
-    },
-    {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable/linear_progress_bar_drawable.xml",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable/linear_progress_bar_drawable.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable/splash.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable/splash.png"
     },
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable/cpb_idle_state_selector_full_complete.xml",
@@ -234,6 +234,10 @@
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable/cpb_background.xml",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable/cpb_background.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable/hero1.jpg",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable/hero1.jpg"
     },
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable/selector_text_full.xml",

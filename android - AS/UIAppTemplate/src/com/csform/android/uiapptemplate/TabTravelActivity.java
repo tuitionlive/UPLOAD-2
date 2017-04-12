@@ -27,12 +27,10 @@ import android.view.Menu;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.csform.android.uiapptemplate.fragment.TabMediaFragment;
 import com.csform.android.uiapptemplate.fragment.TabShopFragment;
 import com.csform.android.uiapptemplate.fragment.TabSocialFragment;
 import com.csform.android.uiapptemplate.fragment.TabTravelFragment;
 import com.csform.android.uiapptemplate.fragment.TabUniversalFragment;
-import com.csform.android.uiapptemplate.util.ImageUtil;
 import com.csform.android.uiapptemplate.view.PagerSlidingTabStrip;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -59,7 +57,7 @@ public class TabTravelActivity extends ActionBarActivity {
 		image = (ImageView) findViewById(R.id.activity_tab_travel_image);
 
 
-		ImageUtil.displayImage(image, "https://www.tuition.in/img/hero-3.jpg", null);
+		//ImageUtil.displayImage(image, "https://www.tuition.in/img/hero-3.jpg", null);
 		
 		adapter = new MyPagerAdapter(getSupportFragmentManager());
 		pager.setAdapter(adapter);
@@ -124,7 +122,7 @@ public class TabTravelActivity extends ActionBarActivity {
 		@Override
 		public Fragment getItem(int position) {
 			if (position == 0) {
-				return TabMediaFragment.newInstance(position);
+				return TabShopFragment.newInstance(position);
 			} else if (position == 1) {
 				return TabShopFragment.newInstance(position);
 			} else if (position == 2) {

@@ -212,6 +212,10 @@
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/dialog_universal_warning.xml"
     },
     {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/course_list_row.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/course_list_row.xml"
+    },
+    {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_header_social.xml",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_header_social.xml"
     },

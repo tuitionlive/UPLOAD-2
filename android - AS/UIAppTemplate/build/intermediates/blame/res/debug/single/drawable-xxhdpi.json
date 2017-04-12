@@ -4,6 +4,10 @@
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-xxhdpi/cancel_red.png"
     },
     {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-xxhdpi/splash.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/drawable-xxhdpi/splash.png"
+    },
+    {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_normal.9.png",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_dark_normal.9.png"
     },

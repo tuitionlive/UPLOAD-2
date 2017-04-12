@@ -144,7 +144,7 @@ public class TabShopFragment extends Fragment   {
 
 
 	private void prepareMovieData() {
-		Movie movie = new Movie("Inside Out", "Animation, Kids & Family", "2015","https://tuition.in/new/img/caipcc.jpg","Vision 40");
+		Movie movie = new Movie("upsc Out", "Animation, Kids & Family", "2015","https://tuition.in/new/img/caipcc.jpg","Vision 40");
 		movieList.add(movie);
 
 		movie = new Movie("Inside Out", "Animation, Kids & Family", "2015","https://tuition.in/new/img/caipcc.jpg","Vision 40");
