@@ -1,0 +1,4 @@
+#Sun Apr 16 06:32:56 IST 2017
+base.0=/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/Krishna/Downloads/UPLOAD 2/android - AS/NotBoringActionBar/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

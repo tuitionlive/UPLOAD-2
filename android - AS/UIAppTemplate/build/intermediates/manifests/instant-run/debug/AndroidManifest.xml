@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csform.android.uiapptemplate"
+    android:versionCode="8"
+    android:versionName="2.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        name="com.csform.android.uiapptemplate.app.AppController"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/favicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.csform.android.uiapptemplate.SplashScreensActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+F
+        <activity
+            android:name="com.csform.android.uiapptemplate.ParallaxKenBurnsActivity"
+            android:theme="@style/AppTheme.Overlay" />
+        <activity android:name="com.csform.android.uiapptemplate.ParallaxActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.activity.LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.activity.RegisterActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name="com.csform.android.uiapptemplate.ParallaxTravelActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.ParallaxSocialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.ParallaxMediaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.Title" />
+        <activity android:name="com.csform.android.uiapptemplate.ParallaxShopActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.ExampleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" > <!-- Prevent Activity restart on such events (specially on orientation change) -->
+
+        </activity>
+        <activity
+            android:name="com.csform.android.uiapptemplate.ImageGalleryCategoryActivity"
+            android:theme="@style/AppTheme.NoShadow" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.ImageGallerySubcategoryActivity"
+            android:theme="@style/AppTheme.NoShadow" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.LogInPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.RegisterPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.RegisterShopPageActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.csform.android.uiapptemplate.ListViewsActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.LeftMenusActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.LeftMenusTravelActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.LeftMenusSocialActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.LeftMenusMediaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.LeftMenusShopActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.csform.android.uiapptemplate.SearchBarsActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.SearchBarShopActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.SearchBarMediaActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.csform.android.uiapptemplate.CategoriesListViewActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DragAndDropSocialActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DragAndDropMediaActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DragAndDropShopActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.view.FullscreenVideo"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity android:name="com.csform.android.uiapptemplate.DragAndDropTravelActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.SwipToDissmissListViewActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.SwipToDissmissMediaActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.SwipToDissmissShopActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.GoogleCardsActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.GoogleCardsTravelActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.GoogleCardsMediaActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.GoogleCardsShopActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.GoogleCardsSocialActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.ExpandableListViewActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.ExpandableMediaListViewActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.ExpandableSocialListViewActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.ExpandableTravelListViewActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.ExpandableShopListViewActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.StickyListHeadersActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DialogUniversalInfoActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DialogMediaActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DialogTravelActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DialogShopActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DialogSocialActivity" />
+        <activity android:name="com.csform.android.uiapptemplate.DialogUniversalWarningActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.WizardTravelActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.WizardMediaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.WizardShopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.WizardSocialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.WizardUniversalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.TabMediaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.TabShopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Title"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.TabTravelActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.TabSocialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.TabUniversalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTabsTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.csform.android.uiapptemplate.MenuDragger"
+            android:label="@string/title_activity_menu_dragger" />
+    </application>
+
+</manifest>
