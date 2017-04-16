@@ -13,21 +13,15 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="160dp" >
+            android:layout_height="100dp" >
 
-            <ImageView
-                android:id="@+id/activity_tab_travel_image"
-                android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:contentDescription="@string/cd_main_image"
-                android:scaleType="centerCrop"
-                android:src="@drawable/hero1"/>
+
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:background="@drawable/gradient_background_tab_travel"
-                android:alpha=".9"/>
+                android:background="#317EEC"
+                android:alpha="1"/>
 
             <com.csform.android.uiapptemplate.font.RobotoTextView
                 android:id="@+id/activity_tab_travel_titletabs"
@@ -35,28 +29,49 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_margin="20dp"
                 android:background="@android:color/transparent"
                 android:text="Tuition"
                 android:textColor="@android:color/white"
-                android:textSize="20sp"
-                app:typeface="robotoRegular" />
+                android:textSize="24sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_above="@+id/activity_tab_travel_tabs" />
 
             <com.csform.android.uiapptemplate.view.PagerSlidingTabStrip
                 android:id="@+id/activity_tab_travel_tabs"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
 
-
+android:layout_marginBottom="0dp"
                 app:pstsDividerPadding="16dp"
                 app:pstsDividerWidth="0dp"
 
-                app:pstsIndicatorHeight="2dp"
-                app:pstsIndicatorColor="@color/accent"
+                app:pstsIndicatorHeight="4dp"
+                app:pstsIndicatorColor="@color/primary_light"
                 app:pstsTabTextColor="@color/icons"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/material_blue_grey_900"
+        android:alpha="1"/>
 
             <com.csform.android.uiapptemplate.font.RobotoTextView
                 android:id="@+id/activity_tab_travel_label"
@@ -66,22 +81,28 @@
                 android:maxLines="1"
                 android:text="Krishna Koundinya"
                 android:textColor="@android:color/white"
-                android:textSize="24sp"
+                android:textSize="16sp"
                 app:typeface="robotoLight"
-                android:layout_below="@+id/activity_tab_travel_titletabs"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp" />
 
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/profile"
+                android:id="@+id/imageView2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
         </RelativeLayout>
 
     </LinearLayout>
 
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:background="@color/material_blue_grey_900"
-        android:alpha="1"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/activity_tab_travel_pager"

@@ -1,24 +1,35 @@
 package com.csform.android.uiapptemplate.fragment;
 
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewCompat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.View.OnClickListener;
+import android.webkit.JavascriptInterface;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.csform.android.uiapptemplate.ParallaxMediaActivity;
+import com.csform.android.uiapptemplate.ParallaxSocialActivity;
 import com.csform.android.uiapptemplate.R;
 
-public class TabTravelFragment extends Fragment implements OnClickListener {
+public class TabTravelFragment extends Fragment  {
 
 	private static final String ARG_POSITION = "position";
 
 	private TextView mLike;
 	private TextView mFavorite;
 	private TextView mShare;
+	WebView webView;
+	ProgressBar progressBar;
 
 	private int position;
 
@@ -39,36 +50,66 @@ public class TabTravelFragment extends Fragment implements OnClickListener {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View rootView = inflater.inflate(R.layout.fragment_tab_travel,
+		View rootView = inflater.inflate(R.layout.activity_search_bar_media,
 				container, false);
-		mLike = (TextView) rootView
-				.findViewById(R.id.fragment_tab_travel_like);
-		mFavorite = (TextView) rootView
-				.findViewById(R.id.fragment_tab_travel_favorite);
-		mShare = (TextView) rootView
-				.findViewById(R.id.fragment_tab_travel_share);
-		
-		mLike.setOnClickListener(this);
-		mFavorite.setOnClickListener(this);
-		mShare.setOnClickListener(this);
+		progressBar=(ProgressBar)rootView.findViewById(R.id.progressBar);
+		progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#317EEC"), PorterDuff.Mode.MULTIPLY);
+		// Save the web view
+
+		webView = (WebView) rootView.findViewById(R.id.webview);
+		webView.setWebViewClient(new WebViewClient());
+		webView.addJavascriptInterface(new WebAppInterface(getActivity()), "Android");
+		webView.getSettings().setJavaScriptEnabled(true);
+		//webView.setWebChromeClient(webChromeClient);
+		// Call private class InsideWebViewClient
+		webView.setWebViewClient(new MyAppWebViewClient());
+
+		webView.loadUrl("https://www.tuition.in/index_android.php");
 		ViewCompat.setElevation(rootView, 50);
+
 		return rootView;
 	}
+	public class WebAppInterface {
+		Context mContext;
 
-	@Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		switch (v.getId()) {
-		case R.id.fragment_tab_travel_like:
-			Toast.makeText(getActivity(), "Like travel", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.fragment_tab_travel_favorite:
-			Toast.makeText(getActivity(), "Favorite travel", Toast.LENGTH_SHORT)
-					.show();
-			break;
-		case R.id.fragment_tab_travel_share:
-			Toast.makeText(getActivity(), "Share travel", Toast.LENGTH_SHORT).show();
-			break;
+		/** Instantiate the interface and set the context */
+		WebAppInterface(Context c) {
+			mContext = c;
+		}
+
+		/** Show a toast from the web page */
+		@JavascriptInterface
+		public void startNewActivity() {
+			Intent intent = new Intent(getActivity(), ParallaxMediaActivity.class);
+			startActivity(intent);
+		}
+		@JavascriptInterface
+		public void startNewActivity1() {
+			Intent intent = new Intent(getActivity(), ParallaxSocialActivity.class);
+			startActivity(intent);
 		}
 	}
+	public class MyAppWebViewClient extends WebViewClient {
+
+		@Override
+		public void onPageFinished(WebView view, String url) {
+			super.onPageFinished(view, url);
+			//view.findViewById(R.id.progressBar1).setVisibility(View.GONE);
+			Log.i("pageFinished", "yesss");
+			progressBar.setVisibility(View.INVISIBLE);
+			//progressBar.setVisibility(View.GONE);
+		}
+
+
+
+
+		@Override
+		public boolean shouldOverrideUrlLoading(WebView view, String url) {
+			view.loadUrl(url);
+			return true;
+		}
+
+	}
+
+
 }

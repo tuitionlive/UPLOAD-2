@@ -1,8 +1,5 @@
 package com.csform.android.uiapptemplate.fragment;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -18,6 +15,9 @@ import com.csform.android.uiapptemplate.SearchBarMediaActivity;
 import com.csform.android.uiapptemplate.SearchBarShopActivity;
 import com.csform.android.uiapptemplate.SearchBarsActivity;
 import com.csform.android.uiapptemplate.adapter.SubcategoryAdapter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SearchBarsFragment extends Fragment implements OnItemClickListener {
 
@@ -36,7 +36,7 @@ public class SearchBarsFragment extends Fragment implements OnItemClickListener 
 		mSearchBars.add(SearchBarsActivity.SEARCH_BARS_LIGHT);
 		mSearchBars.add(SearchBarShopActivity.TAG);
 		mSearchBars.add(SearchBarsActivity.SEARCH_BARS_SOCIAL);
-		mSearchBars.add(SearchBarMediaActivity.TAG);
+	//	mSearchBars.add(SearchBarMediaActivity.TAG);
 		mSearchBars.add(SearchBarsActivity.SEARCH_BARS_TRAVEL);
 	}
 

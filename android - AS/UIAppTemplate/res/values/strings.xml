@@ -27,6 +27,7 @@
     <string name="drawer_icon_blog">&#xe91b;</string>
     <string name="drawer_icon_git_hub">&#xe99b;</string>
     <string name="drawer_icon_instagram">&#xe9f5;</string>
+    <string name="loading_video">Loading video…</string>
 
     <!-- Navigation Drawer icon titles -->
     <string name="drawer_title_splash_screens">Splash Screens</string>
@@ -188,5 +189,18 @@
     <string name="action_example">Example action</string>
 
     <string name="action_settings">Settings</string>
+
+
+    <!--Login -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
 
 </resources>

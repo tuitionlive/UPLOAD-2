@@ -3,22 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res/com.csform.android.uiapptemplate"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <ImageView
         android:id="@+id/header_navigation_drawer_social_image"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:contentDescription="@string/cd_main_image"
         android:scaleType="centerCrop"
         android:src="@drawable/left_menu_social_small" />
+    <view
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/cd_main_image"
+        android:scaleType="centerCrop"
+        android:alpha=".4"
+         />
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:gravity="center_vertical"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,178 +71,8 @@
             </LinearLayout>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="vertical" >
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal" >
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal" >
-
-                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
-                        android:id="@+id/icon_friends"
-                        style="@style/TextViewAppearance.Title1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:padding="0dp"
-                        android:text="@string/material_icon_account_multiple"
-                        android:textColor="@color/main_color_500"
-                        android:textSize="22dp" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:id="@+id/number_of_friends"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="4dp"
-                        android:text="152"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoBold" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="friends"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoLight" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal" >
-
-                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
-                        android:id="@+id/icon_message"
-                        style="@style/TextViewAppearance.Title1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:padding="0dp"
-                        android:text="@string/material_icon_message"
-                        android:textColor="@color/main_color_500"
-                        android:textSize="22dp" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:id="@+id/number_of_messages"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="4dp"
-                        android:text="15"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoBold" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="messages"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoLight" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal" >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal" >
-
-                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
-                        android:id="@+id/icon_photos"
-                        style="@style/TextViewAppearance.Title1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:padding="0dp"
-                        android:text="@string/material_icon_image_box"
-                        android:textColor="@color/main_color_500"
-                        android:textSize="22dp" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:id="@+id/number_of_photos"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="4dp"
-                        android:text="22"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoBold" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="photos"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoLight" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal" >
-
-                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
-                        android:id="@+id/icon_videos"
-                        style="@style/TextViewAppearance.Title1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:padding="0dp"
-                        android:text="@string/material_icon_video"
-                        android:textColor="@color/main_color_500"
-                        android:textSize="22dp" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:id="@+id/number_of_videos"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="4dp"
-                        android:text="2"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoBold" />
-
-                    <com.csform.android.uiapptemplate.font.RobotoTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="videos"
-                        android:textColor="@android:color/white"
-                        android:textSize="12sp"
-                        app:typeface="robotoLight" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
     </LinearLayout>
 
     <View
@@ -239,5 +82,307 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/header_navigation_drawer_social_image"
         android:background="@color/material_light_yellow_600" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/divider_top">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseware">
+        <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+            style="@style/RippleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:layout_below="@+id/divider_top"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/secondary_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="80dp"
+
+                    android:weightSum="1">
+
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:alpha=".6"
+                        android:text="@string/material_icon_account"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp" />
+
+                    <com.csform.android.uiapptemplate.font.RobotoTextView
+                        android:id="@+id/list_item_navigation_drawer_media_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Album"
+                        android:textColor="@color/primary_text"
+                        android:textSize="16sp"
+                        app:typeface="robotoLight"
+                        android:layout_weight="0.86" />
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:layout_gravity=""
+
+                        android:alpha=".6"
+                        android:text="@string/material_icon_go_right"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp"
+                        android:layout_weight="0.1" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/announcements"
+        android:layout_below="@+id/courseware">
+        <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+            style="@style/RippleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:layout_below="@+id/divider_top"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/secondary_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="80dp"
+
+                    android:weightSum="1">
+
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:alpha=".6"
+                        android:text="@string/material_icon_account"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp" />
+
+                    <com.csform.android.uiapptemplate.font.RobotoTextView
+                        android:id="@+id/list_item_navigation_drawer_media_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Album"
+                        android:textColor="@color/primary_text"
+                        android:textSize="16sp"
+                        app:typeface="robotoLight"
+                        android:layout_weight="0.86" />
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:layout_gravity=""
+
+                        android:alpha=".6"
+                        android:text="@string/material_icon_go_right"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp"
+                        android:layout_weight="0.1" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/handouts"
+        android:layout_below="@+id/announcements">
+        <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+            style="@style/RippleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:layout_below="@+id/divider_top"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/secondary_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="80dp"
+
+                    android:weightSum="1">
+
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:alpha=".6"
+                        android:text="@string/material_icon_account"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp" />
+
+                    <com.csform.android.uiapptemplate.font.RobotoTextView
+                        android:id="@+id/list_item_navigation_drawer_media_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Album"
+                        android:textColor="@color/primary_text"
+                        android:textSize="16sp"
+                        app:typeface="robotoLight"
+                        android:layout_weight="0.86" />
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:layout_gravity=""
+
+                        android:alpha=".6"
+                        android:text="@string/material_icon_go_right"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp"
+                        android:layout_weight="0.1" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/discussion"
+        android:layout_below="@+id/handouts">
+        <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+            style="@style/RippleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:layout_below="@+id/divider_top"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/secondary_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="80dp"
+
+                    android:weightSum="1">
+
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:alpha=".6"
+                        android:text="@string/material_icon_account"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp" />
+
+                    <com.csform.android.uiapptemplate.font.RobotoTextView
+                        android:id="@+id/list_item_navigation_drawer_media_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Album"
+                        android:textColor="@color/primary_text"
+                        android:textSize="16sp"
+                        app:typeface="robotoLight"
+                        android:layout_weight="0.86" />
+                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
+                        android:id="@+id/list_item_navigation_drawer_media_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:padding="8dp"
+                        android:layout_gravity=""
+
+                        android:alpha=".6"
+                        android:text="@string/material_icon_go_right"
+                        android:textColor="@color/primary_text"
+                        android:textSize="24dp"
+                        android:layout_weight="0.1" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+</ScrollView>
 
 </RelativeLayout>

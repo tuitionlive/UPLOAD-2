@@ -20,12 +20,12 @@
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/android-support-v7-appcompat/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png",

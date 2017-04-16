@@ -5,8 +5,8 @@
     android:versionName="2.0.1" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,14 +15,17 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        android:name="com.csform.android.uiapptemplate.app.AppController"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@drawable/favicon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.csform.android.uiapptemplate.SplashScreensActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,10 +37,27 @@ F
             android:name="com.csform.android.uiapptemplate.ParallaxKenBurnsActivity"
             android:theme="@style/AppTheme.Overlay" />
         <activity android:name="com.csform.android.uiapptemplate.ParallaxActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.activity.LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.activity.RegisterActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity android:name="com.csform.android.uiapptemplate.ParallaxTravelActivity" />
-        <activity android:name="com.csform.android.uiapptemplate.ParallaxSocialActivity" />
-        <activity android:name="com.csform.android.uiapptemplate.ParallaxMediaActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.ParallaxSocialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.ParallaxMediaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.Title" />
         <activity android:name="com.csform.android.uiapptemplate.ParallaxShopActivity" />
+        <activity
+            android:name="com.csform.android.uiapptemplate.ExampleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name" > <!-- Prevent Activity restart on such events (specially on orientation change) -->
+
+        </activity>
         <activity
             android:name="com.csform.android.uiapptemplate.ImageGalleryCategoryActivity"
             android:theme="@style/AppTheme.NoShadow" />
@@ -137,7 +157,7 @@ F
         <activity
             android:name="com.csform.android.uiapptemplate.TabShopActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTabsTheme"
+            android:theme="@style/AppTheme.Title"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name="com.csform.android.uiapptemplate.TabTravelActivity"

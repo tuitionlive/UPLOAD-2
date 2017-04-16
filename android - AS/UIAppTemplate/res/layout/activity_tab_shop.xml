@@ -8,124 +8,52 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical" >
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="160dp" >
+            android:layout_height="60dp" >
 
-            <ImageView
-                android:id="@+id/activity_tab_shop_image"
-                android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:contentDescription="@string/cd_main_image"
-                android:scaleType="centerCrop" />
+
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:background="@drawable/gradient_background_tab_shop" />
+                android:layout_height="60dp"
+                android:background="#317EEC"
+                android:alpha="1"
+                android:id="@+id/view" />
 
-            <LinearLayout
+
+            <com.csform.android.uiapptemplate.view.PagerSlidingTabStrip
+                android:id="@+id/activity_tab_travel_tabs"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentBottom="true"
+                android:layout_height="60dp"
+
+                app:pstsDividerPadding="16dp"
+                app:pstsDividerWidth="0dp"
+
+                app:pstsIndicatorHeight="6dp"
+                app:pstsIndicatorColor="@color/primary_light"
+                app:pstsTabTextColor="@color/icons"
+                android:layout_alignBottom="@+id/view"
                 android:layout_alignParentLeft="true"
-                android:orientation="vertical" >
+                android:layout_alignParentStart="true" />
 
-                <com.csform.android.uiapptemplate.font.RobotoTextView
-                    android:id="@+id/activity_tab_shop_titletabs"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginRight="32dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@android:color/transparent"
-                    android:text="Tabs"
-                    android:textColor="@android:color/white"
-                    android:textSize="20sp"
-                    app:typeface="robotoRegular" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="right" >
-
-                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
-                        android:id="@+id/activity_tab_shop_like"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="0dp"
-                        android:padding="8dp"
-                        android:text="@string/material_icon_like"
-                        android:textColor="@color/material_lime_200"
-                        android:textSize="20dp" />
-
-                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
-                        android:id="@+id/activity_tab_shop_favorite"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:padding="8dp"
-                        android:text="@string/material_icon_favorite"
-                        android:textColor="@color/material_lime_200"
-                        android:textSize="20dp" />
-
-                    <com.csform.android.uiapptemplate.font.MaterialDesignIconsTextView
-                        android:id="@+id/activity_tab_shop_share"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="0dp"
-                        android:padding="8dp"
-                        android:text="@string/material_icon_share"
-                        android:textColor="@color/material_lime_200"
-                        android:textSize="20dp" />
-                </LinearLayout>
-
-                <com.csform.android.uiapptemplate.font.RobotoTextView
-                    android:id="@+id/activity_tab_shop_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:gravity="center"
-                    android:maxLines="1"
-                    android:text="Super discount!"
-                    android:textColor="@android:color/white"
-                    android:textSize="16sp"
-                    app:typeface="robotoLight" />
-
-                <com.csform.android.uiapptemplate.font.RobotoTextView
-                    android:id="@+id/activity_tab_shop_label"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:gravity="center"
-                    android:maxLines="1"
-                    android:text="50% OFF!"
-                    android:textColor="@android:color/white"
-                    android:textSize="32sp"
-                    app:typeface="robotoBlack" />
-            </LinearLayout>
         </RelativeLayout>
+
     </LinearLayout>
 
-    <com.csform.android.uiapptemplate.view.PagerSlidingTabStrip
-        android:id="@+id/activity_tab_shop_tabs"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@color/material_lime_600"
-        app:pstsIndicatorHeight="2dp"
-        app:pstsIndicatorColor="@color/material_lime_700"
-        app:pstsTabTextColor="@color/material_lime_200" />
+
+
+
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/activity_tab_shop_pager"
+        android:id="@+id/activity_tab_travel_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:context=".TabMediaActivity" />
+        tools:context=".TabShopActivity" />
 
 </LinearLayout>

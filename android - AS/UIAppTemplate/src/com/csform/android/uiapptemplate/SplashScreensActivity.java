@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.csform.android.uiapptemplate.activity.LoginActivity;
+
 public class SplashScreensActivity extends Activity {
 
 
@@ -27,7 +29,7 @@ public class SplashScreensActivity extends Activity {
 				public void run() {
 					// This method will be executed once the timer is over
 					// Start your app main activity
-					Intent i = new Intent(SplashScreensActivity.this, TabTravelActivity.class);
+					Intent i = new Intent(SplashScreensActivity.this, LoginActivity.class);
 					startActivity(i);
 
 					// close this activity

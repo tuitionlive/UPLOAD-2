@@ -32,19 +32,25 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <color name="accent">#448AFF</color>
+    <color name="accent">#317EEC</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_main">#428bca</color>
+    <color name="bg_register">#2e3237</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="btn_logut_bg">#ff6861</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -83,6 +89,12 @@
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
     <color name="icons">#FFFFFF</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="lbl_name">#333333</color>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
     <color name="main_color_100">@color/material_purple_100</color>
@@ -707,6 +719,11 @@
     <string name="app_name">Tuition</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_register">REGISTER</string>
     <string name="cancel">CANCEL</string>
     <string name="cd_background_image">background image</string>
     <string name="cd_main_image">main image</string>
@@ -797,6 +814,10 @@
     <string name="fontello_user"></string>
     <string name="fontello_x_mark"></string>
     <string name="fontello_x_mark_masked"></string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_password">Password</string>
+    <string name="loading_video">Loading video…</string>
     <string name="login">LOGIN</string>
     <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
     <string name="lorem_ipsum_short">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
@@ -872,6 +893,7 @@
     <string name="material_icon_unfold_more"></string>
     <string name="material_icon_video"></string>
     <string name="material_icon_w_shop"></string>
+    <string name="name">Fullname</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="new_york">New York</string>
@@ -903,7 +925,7 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
     <style name="ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
-        <item name="android:background">#3F51B5</item>
+        <item name="android:background">#004ecb</item>
         <item name="titleTextStyle">@style/ActionBarStyle.TitleTextStyle</item>
     </style>
     <style name="ActionBarStyle.NoShadow" parent="@style/ActionBarStyle">
@@ -917,8 +939,8 @@
     <style name="AppTabsTheme" parent="AppTheme">
         <item name="actionBarStyle">@style/ActionBarStyle</item>
 		<item name="windowActionBar">false</item>
-        <item name="colorPrimary">#3F51B5</item>
-        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorPrimary">#0073e6</item>
+        <item name="colorPrimaryDark">#0073e6</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="actionBarStyle">@style/ActionBarStyle</item>
@@ -944,6 +966,10 @@
     </style>
     <style name="AppTheme.Title" parent="Theme.AppCompat">
         <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="colorPrimary">#0073e6</item>
+        <item name="colorPrimaryDark">#0073e6</item>
+
     </style>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>

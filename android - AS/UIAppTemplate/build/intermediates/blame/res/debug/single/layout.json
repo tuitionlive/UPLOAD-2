@@ -240,6 +240,10 @@
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/header_parallax_social.xml"
     },
     {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/view_loading_video.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/view_loading_video.xml"
+    },
+    {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/exploded-aar/android - AS/android-support-v7-appcompat/unspecified/res/layout/abc_action_menu_item_layout.xml"
     },
@@ -248,8 +252,16 @@
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/list_item_swipe_to_dissmiss_social.xml"
     },
     {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_login.xml"
+    },
+    {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_example.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_example.xml"
     },
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/list_item_drag_and_drop_social.xml",
@@ -578,6 +590,10 @@
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/activity_register.xml",
         "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/classroom.xml",
+        "source": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/res/layout/classroom.xml"
     },
     {
         "merged": "/Users/Krishna/Downloads/UPLOAD 2/android - AS/UIAppTemplate/build/intermediates/res/merged/debug/layout/fragment_wizard_media.xml",

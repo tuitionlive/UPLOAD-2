@@ -1,93 +1,161 @@
 package com.csform.android.uiapptemplate;
 
+import android.app.ActionBar;
+import android.app.ProgressDialog;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.view.MenuItem;
+import android.util.Log;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 
-import com.csform.android.uiapptemplate.adapter.SwipeToDissmissMediaAdapter;
-import com.csform.android.uiapptemplate.util.DummyContent;
-import com.csform.android.uiapptemplate.view.pzv.PullToZoomListViewEx;
-
-public class ParallaxMediaActivity extends ActionBarActivity implements
-		OnClickListener {
-
-	public static final String TAG = "Parallax media";
-
-	ImageView iv;
+public class ParallaxMediaActivity extends ActionBarActivity
+{
+	private VideoEnabledWebView webView;
+	private VideoEnabledWebChromeClient webChromeClient;
+	ActionBar bar;
+	ProgressDialog progressDialog;
+	ProgressBar progressBar;
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState)
+	{
+
+
+
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_parallax_media);
+		setContentView(R.layout.activity_example);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#317EEC")));
 
-		TextView iconLike = (TextView) findViewById(R.id.header_parallax_media_like);
-		TextView iconFavorite = (TextView) findViewById(R.id.header_parallax_media_favorite);
-		TextView iconShare = (TextView) findViewById(R.id.header_parallax_media_share);
-		TextView iconPrevious = (TextView) findViewById(R.id.header_parallax_media_previous);
-		TextView iconPlay = (TextView) findViewById(R.id.header_parallax_media_play);
-		TextView iconNext = (TextView) findViewById(R.id.header_parallax_media_next);
-		TextView songName = (TextView) findViewById(R.id.header_parallax_media_song_name);
-		TextView artistName = (TextView) findViewById(R.id.header_parallax_media_artist_name);
 
-		iconLike.setOnClickListener(this);
-		iconFavorite.setOnClickListener(this);
-		iconShare.setOnClickListener(this);
-		iconPrevious.setOnClickListener(this);
-		iconPlay.setOnClickListener(this);
-		iconNext.setOnClickListener(this);
+progressBar=(ProgressBar)findViewById(R.id.progressBar);
+		progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#317EEC"), PorterDuff.Mode.MULTIPLY);
+		// Save the web view
+		webView = (VideoEnabledWebView)findViewById(R.id.webView);
+		webView.clearCache(true);
 
-		// iv = (ImageView) findViewById(R.id.header_parallax_);
-		PullToZoomListViewEx listView = (PullToZoomListViewEx) findViewById(R.id.paralax_media_list_view);
-		listView.setShowDividers(0);
-		listView.setAdapter(new SwipeToDissmissMediaAdapter(this, DummyContent
-				.getDummyModelList()));
 
-		getSupportActionBar().hide();
+		// Initialize the VideoEnabledWebChromeClient and set event handlers
+		View nonVideoLayout = findViewById(R.id.nonVideoLayout); // Your own view, read class comments
+		ViewGroup videoLayout = (ViewGroup)findViewById(R.id.videoLayout); // Your own view, read class comments
+		//noinspection all
+		View loadingView = getLayoutInflater().inflate(R.layout.view_loading_video, null); // Your own view, read class comments
+		webChromeClient = new VideoEnabledWebChromeClient(nonVideoLayout, videoLayout, loadingView, webView) // See all available constructors...
+		{
+			// Subscribe to standard events, such as onProgressChanged()...
+			@Override
+			public void onProgressChanged(WebView view, int progress)
+			{
+				// Your code...
+			}
+		};
+		webChromeClient.setOnToggledFullscreen(new VideoEnabledWebChromeClient.ToggledFullscreenCallback()
+		{
+			@Override
+			public void toggledFullscreen(boolean fullscreen)
+			{
+				// Your code to handle the full-screen change, for example showing and hiding the title bar. Example:
+				if (fullscreen)
+				{
+					WindowManager.LayoutParams attrs = getWindow().getAttributes();
+					attrs.flags |= WindowManager.LayoutParams.FLAG_FULLSCREEN;
+					attrs.flags |= WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON;
+					getSupportActionBar().hide();
+					getWindow().setAttributes(attrs);
+					if (android.os.Build.VERSION.SDK_INT >= 14)
+					{
+						//noinspection all
+						getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE);
+					}
+				}
+				else
+				{
+					WindowManager.LayoutParams attrs = getWindow().getAttributes();
+					attrs.flags &= ~WindowManager.LayoutParams.FLAG_FULLSCREEN;
+					attrs.flags &= ~WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON;
+					getWindow().setAttributes(attrs);
+					getSupportActionBar().show();
+					if (android.os.Build.VERSION.SDK_INT >= 14)
+					{
+						//noinspection all
+						getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
+					}
+				}
+
+			}
+		});
+		webView.setWebChromeClient(webChromeClient);
+		// Call private class InsideWebViewClient
+		webView.setWebViewClient(new MyAppWebViewClient());
+
+		// Navigate anywhere you want, but consider that this classes have only been tested on YouTube's mobile site
+		webView.loadUrl("https://www.tuition.in/online-course/appsc/appsc_android.html");
+
+
+
+
 	}
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		if (item.getItemId() == android.R.id.home) {
-			finish();
+	private class InsideWebViewClient extends WebViewClient {
+		@Override
+		// Force links to be opened inside WebView and not in Default Browser
+		// Thanks http://stackoverflow.com/a/33681975/1815624
+		public boolean shouldOverrideUrlLoading(WebView view, String url) {
+			view.loadUrl(url);
 			return true;
 		}
-		return super.onOptionsItemSelected(item);
+	}
+	public class MyAppWebViewClient extends WebViewClient {
+
+		@Override
+		public void onPageFinished(WebView view, String url) {
+			super.onPageFinished(view, url);
+			//view.findViewById(R.id.progressBar1).setVisibility(View.GONE);
+			Log.i("pageFinished", "yesss");
+			progressBar.setVisibility(View.INVISIBLE);
+			//progressBar.setVisibility(View.GONE);
+		}
+
+
+
+
+		@Override
+		public boolean shouldOverrideUrlLoading(WebView view, String url) {
+			view.loadUrl(url);
+			return true;
+		}
+
 	}
 
 	@Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-
-		switch (v.getId()) {
-		case R.id.header_parallax_media_like:
-			// click on explore button
-			Toast.makeText(this, "Like", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.header_parallax_media_favorite:
-			// click on explore button
-			Toast.makeText(this, "Favorite", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.header_parallax_media_share:
-			// click on explore button
-			Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.header_parallax_media_previous:
-			// click on explore button
-			Toast.makeText(this, "Previous", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.header_parallax_media_play:
-			// click on explore button
-			Toast.makeText(this, "Play ", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.header_parallax_media_next:
-			// click on explore button
-			Toast.makeText(this, "Next", Toast.LENGTH_SHORT).show();
-			break;
+	public void onBackPressed()
+	{
+		// Notify the VideoEnabledWebChromeClient, and handle it ourselves if it doesn't handle it
+		if (!webChromeClient.onBackPressed())
+		{
+			if (webView.canGoBack())
+			{
+				webView.goBack();
+			}
+			else
+			{
+				// Standard back button implementation (for example this could close the app)
+				super.onBackPressed();
+			}
 		}
 	}
+	@Override
+	public boolean onSupportNavigateUp(){
+		finish();
+		return true;
+	}
+
+
 }

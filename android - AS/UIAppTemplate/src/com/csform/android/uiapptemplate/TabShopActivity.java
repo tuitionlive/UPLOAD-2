@@ -16,8 +16,9 @@
 
 package com.csform.android.uiapptemplate;
 
-import java.util.ArrayList;
-
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -26,50 +27,55 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.util.TypedValue;
 import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.csform.android.uiapptemplate.fragment.TabMediaFragment;
-import com.csform.android.uiapptemplate.fragment.TabShopFragment;
+import com.csform.android.uiapptemplate.fragment.Classroom;
 import com.csform.android.uiapptemplate.fragment.TabSocialFragment;
 import com.csform.android.uiapptemplate.fragment.TabTravelFragment;
 import com.csform.android.uiapptemplate.fragment.TabUniversalFragment;
-import com.csform.android.uiapptemplate.util.ImageUtil;
 import com.csform.android.uiapptemplate.view.PagerSlidingTabStrip;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
-public class TabShopActivity extends ActionBarActivity implements
-		OnClickListener {
+import java.util.ArrayList;
+
+public class TabShopActivity extends ActionBarActivity {
 
 	private MyPagerAdapter adapter;
 	private PagerSlidingTabStrip tabs;
 	private ViewPager pager;
 	private ImageView image;
-	private TextView like;
-	private TextView favorite;
-	private TextView share;
+	public TextView activity_tab_travel_titletabs;
+	public ImageLoader imageLoader = ImageLoader.getInstance();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
 		setContentView(R.layout.activity_tab_shop);
 
-		tabs = (PagerSlidingTabStrip) findViewById(R.id.activity_tab_shop_tabs);
-		pager = (ViewPager) findViewById(R.id.activity_tab_shop_pager);
-		image = (ImageView) findViewById(R.id.activity_tab_shop_image);
-		like = (TextView) findViewById(R.id.activity_tab_shop_like);
-		favorite = (TextView) findViewById(R.id.activity_tab_shop_favorite);
-		share = (TextView) findViewById(R.id.activity_tab_shop_share);
+		ImageLoader.getInstance().init(ImageLoaderConfiguration.createDefault(TabShopActivity.this));
+	//	activity_tab_travel_titletabs=(TextView)findViewById(R.id.activity_tab_travel_titletabs);
+		tabs = (PagerSlidingTabStrip) findViewById(R.id.activity_tab_travel_tabs);
+		pager = (ViewPager) findViewById(R.id.activity_tab_travel_pager);
+		//image = (ImageView) findViewById(R.id.activity_tab_travel_image);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setTitle(getIntent().getExtras().getString("name"));
+		getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#317EEC")));
 
-		like.setOnClickListener(this);
-		favorite.setOnClickListener(this);
-		share.setOnClickListener(this);
-		
-		ImageUtil.displayImage(image,
-				"http://pengaja.com/uiapptemplate/newphotos/shop/7.jpg", null);
+        Bundle bundle = new Bundle();
+        bundle.putString("url", getIntent().getExtras().getString("url"));
+// set Fragmentclass Arguments
+        System.out.println("url tab shop"+getIntent().getExtras().getString("url"));
+        Classroom fragobj = new Classroom();
+        fragobj.setArguments(bundle);
 
+		//ImageUtil.displayImage(image, "https://www.tuition.in/img/hero-3.jpg", null);
+		Typeface typeFace=Typeface.createFromAsset(getAssets(),"fonts/corbel.ttf");
+	//	activity_tab_travel_titletabs.setTypeface(typeFace);
 		adapter = new MyPagerAdapter(getSupportFragmentManager());
 		pager.setAdapter(adapter);
 		tabs.setViewPager(pager);
@@ -77,7 +83,7 @@ public class TabShopActivity extends ActionBarActivity implements
 				TypedValue.COMPLEX_UNIT_DIP, 4, getResources()
 						.getDisplayMetrics());
 		pager.setPageMargin(pageMargin);
-		pager.setCurrentItem(1);
+		pager.setCurrentItem(3);
 
 		tabs.setOnTabReselectedListener(new PagerSlidingTabStrip.OnTabReselectedListener() {
 			@Override
@@ -85,6 +91,7 @@ public class TabShopActivity extends ActionBarActivity implements
 				Toast.makeText(TabShopActivity.this,
 						"Tab reselected: " + position, Toast.LENGTH_SHORT)
 						.show();
+
 			}
 		});
 	}
@@ -94,6 +101,16 @@ public class TabShopActivity extends ActionBarActivity implements
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
@@ -104,16 +121,28 @@ public class TabShopActivity extends ActionBarActivity implements
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
 		super.onRestoreInstanceState(savedInstanceState);
 	}
+    @Override
+    public void onBackPressed()
+    {
+        // Notify the VideoEnabledWebChromeClient, and handle it ourselves if it doesn't handle it
+
+            {
+                // Standard back button implementation (for example this could close the app)
+                super.onBackPressed();
+            }
+
+    }
+
 
 	public class MyPagerAdapter extends FragmentPagerAdapter {
 
 		private final ArrayList<String> tabNames = new ArrayList<String>() {
 			{
-				add("Media");
-				add("Shop");
-				add("Social");
-				add("Travel");
-				add("Universal");
+				add("Classroom");
+				add("Handouts");
+				add("Announcements");
+
+
 			}
 		};
 
@@ -134,9 +163,10 @@ public class TabShopActivity extends ActionBarActivity implements
 		@Override
 		public Fragment getItem(int position) {
 			if (position == 0) {
-				return TabMediaFragment.newInstance(position);
+
+				return Classroom.newInstance(position);
 			} else if (position == 1) {
-				return TabShopFragment.newInstance(position);
+				return Classroom.newInstance(position);
 			} else if (position == 2) {
 				return TabSocialFragment.newInstance(position);
 			} else if (position == 3) {
@@ -147,19 +177,4 @@ public class TabShopActivity extends ActionBarActivity implements
 		}
 	}
 
-	@Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		switch (v.getId()) {
-		case R.id.activity_tab_shop_like:
-			Toast.makeText(this, "Like", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.activity_tab_shop_favorite:
-			Toast.makeText(this, "Favorite", Toast.LENGTH_SHORT).show();
-			break;
-		case R.id.activity_tab_shop_share:
-			Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
-			break;
-		}
-	}
 }

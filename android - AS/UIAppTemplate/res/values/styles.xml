@@ -22,6 +22,10 @@
     </style>
     <style name="AppTheme.Title" parent="Theme.AppCompat">
         <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="colorPrimary">#0073e6</item>
+        <item name="colorPrimaryDark">#0073e6</item>
+
     </style>
     <!-- Default application theme ends here -->
 
@@ -29,12 +33,12 @@
     <style name="AppTabsTheme" parent="AppTheme">
         <item name="actionBarStyle">@style/ActionBarStyle</item>
 		<item name="windowActionBar">false</item>
-        <item name="colorPrimary">#3F51B5</item>
-        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorPrimary">#0073e6</item>
+        <item name="colorPrimaryDark">#0073e6</item>
     </style>
     
     <style name="ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
-        <item name="android:background">#3F51B5</item>
+        <item name="android:background">#004ecb</item>
         <item name="titleTextStyle">@style/ActionBarStyle.TitleTextStyle</item>
     </style>
 

@@ -1,8 +1,5 @@
 package com.csform.android.uiapptemplate.fragment;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -15,12 +12,13 @@ import android.widget.ListView;
 
 import com.csform.android.uiapptemplate.ParallaxActivity;
 import com.csform.android.uiapptemplate.ParallaxKenBurnsActivity;
-import com.csform.android.uiapptemplate.ParallaxMediaActivity;
 import com.csform.android.uiapptemplate.ParallaxShopActivity;
-import com.csform.android.uiapptemplate.ParallaxSocialActivity;
 import com.csform.android.uiapptemplate.ParallaxTravelActivity;
 import com.csform.android.uiapptemplate.R;
 import com.csform.android.uiapptemplate.adapter.SubcategoryAdapter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ParallaxEffectsFragment extends Fragment implements
 		OnItemClickListener {
@@ -38,9 +36,9 @@ public class ParallaxEffectsFragment extends Fragment implements
 		mParallaxEffects = new ArrayList<String>();
 		mParallaxEffects.add(ParallaxKenBurnsActivity.TAG);
 		mParallaxEffects.add(ParallaxActivity.TAG);
-		mParallaxEffects.add(ParallaxMediaActivity.TAG);
+		//mParallaxEffects.add(ParallaxMediaActivity.TAG);
 		mParallaxEffects.add(ParallaxShopActivity.TAG);
-		mParallaxEffects.add(ParallaxSocialActivity.TAG);
+		//mParallaxEffects.add(ParallaxSocialActivity.TAG);
 		mParallaxEffects.add(ParallaxTravelActivity.TAG);
 	}
 
@@ -69,12 +67,8 @@ public class ParallaxEffectsFragment extends Fragment implements
 			intent = new Intent(getActivity(), ParallaxActivity.class);
 		} else if (pe.equals(ParallaxTravelActivity.TAG)) {
 			intent = new Intent(getActivity(), ParallaxTravelActivity.class);
-		} else if (pe.equals(ParallaxSocialActivity.TAG)) {
-			intent = new Intent(getActivity(), ParallaxSocialActivity.class);
-		} else if (pe.equals(ParallaxShopActivity.TAG)) {
+		}  else if (pe.equals(ParallaxShopActivity.TAG)) {
 			intent = new Intent(getActivity(), ParallaxShopActivity.class);
-		} else if (pe.equals(ParallaxMediaActivity.TAG)) {
-			intent = new Intent(getActivity(), ParallaxMediaActivity.class);
 		}
 		if (intent != null)
 			startActivity(intent);

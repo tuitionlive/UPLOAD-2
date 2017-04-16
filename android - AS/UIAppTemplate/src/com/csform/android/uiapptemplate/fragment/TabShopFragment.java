@@ -29,10 +29,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.csform.android.uiapptemplate.MainActivity;
 import com.csform.android.uiapptemplate.Movie;
 import com.csform.android.uiapptemplate.MoviesAdapter;
 import com.csform.android.uiapptemplate.R;
+import com.csform.android.uiapptemplate.SearchBarShopActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,7 +80,7 @@ public class TabShopFragment extends Fragment   {
 				new RecyclerItemClickListener(rootView.getContext(), recyclerView ,new RecyclerItemClickListener.OnItemClickListener() {
 					@Override public void onItemClick(View view, int position) {
 						System.out.println("Krishna"+movieList.get(position).getUrl());
-						Intent intent=new Intent(getActivity(),MainActivity.class);
+						Intent intent=new Intent(getActivity(),SearchBarShopActivity.class);
 						startActivity(intent);
 
 					}

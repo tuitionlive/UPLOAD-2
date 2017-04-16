@@ -5,8 +5,8 @@
     android:versionName="2.0.1">
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,14 +16,17 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        android:name="com.csform.android.uiapptemplate.app.AppController"
         android:allowBackup="true"
         android:icon="@drawable/favicon"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true" >
         <activity
             android:name=".SplashScreensActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,11 +39,23 @@
         <activity android:name=".ParallaxActivity"
 
         />
-
+        <activity android:name=".activity.LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name=".activity.RegisterActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
         <activity android:name=".ParallaxTravelActivity" />
-        <activity android:name=".ParallaxSocialActivity" />
-        <activity android:name=".ParallaxMediaActivity" />
+        <activity android:name=".ParallaxSocialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".ParallaxMediaActivity"
+            android:theme="@style/AppTheme.Title"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
         <activity android:name=".ParallaxShopActivity" />
+        <activity
+            android:name="ExampleActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboardHidden|orientation|screenSize" > <!-- Prevent Activity restart on such events (specially on orientation change) -->
+
+        </activity>
         <activity
             android:name=".ImageGalleryCategoryActivity"
             android:theme="@style/AppTheme.NoShadow" />
@@ -144,7 +159,8 @@
         <activity
             android:name=".TabShopActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTabsTheme"
+
+            android:theme="@style/AppTheme.Title"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name=".TabTravelActivity"
